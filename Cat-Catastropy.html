@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat-Catastropy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/images/pfp.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">GameDevRepo</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="Cafe-CATastropy">
+    <div class="container">
+      <h2 class="section-title">Cafe-CATastropy</h2>
+      <div class="about-content about-grid">
+        <div class="about-image" style="overflow:hidden; border-radius:12px;">
+          <video autoplay muted loop playsinline preload="metadata" class="about-video">
+            <source src="Vids/GAMEPLAY%20VIDEO%20YES.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="about-text">
+          <h3>Overview</h3>
+          <p><strong>Game Title:</strong> Cafe-CATastropy</p>
+          <p><strong>Genre:</strong> Local Co-op · Party · Casual</p>
+          <p><strong>Team Size:</strong> 2 Developers, 3 Artists</p>
+          <p><strong>Description</strong> — A hectic 2-player local co-op inspired by Overcooked. Deliver as many orders as you can before the timer runs out. Work together, manage chaos, and score high!</p>
+
+          <div class="features">
+            <h4>Key features</h4>
+            <ul class="features-list">
+              <li>Local co-op for 2 players</li>
+              <li>Unique cats with distinct characteristics</li>
+              <li>Multiple kitchen layouts & increasing challenge</li>
+              <li>Fast-paced, chaotic gameplay</li>
+            </ul>
+          </div>
+
+          <div class="links">
+            <a class="btn" href="https://mmispot.itch.io/cafe-catastrophy" target="_blank">Play on Itch</a>
+            <a class="btn btn-outline" href="https://github.com/S0ra-0-0/Cafe-CATastropy" target="_blank">View on GitHub</a>
+          </div>
+        </div> <!-- .about-text -->
+      </div> <!-- .about-content -->
+    </div> <!-- .container -->
+  </section>
+
+  <!-- Development / Process Section (full-bleed) -->
+  <section id="development" class="full-bleed">
+    <div class="dev-inner container">
+      <h2 class="section-title">Development</h2>
+      <div class="process-grid">
+        <article class="process-item">
+          <div class="process-image">
+            <img src="images/Untitled diagram-2025-12-04-103751.png" alt="Prototyping screenshot">
+          </div>
+          <div class="process-text">
+            <h3>Prototyping & Technical design</h3>
+            <p>I started with quick paper and digital prototypes to lock down the core loop: pick up, deliver, and juggle orders under time pressure. Early playtests focused on balancing pace and player roles so two people feel equally involved.</p>
+
+            <p>Key focus areas: rapid iteration, clear feedback, and making failure feel fun. Many features were cut or simplified after prototype sessions to keep the game snappy and easily accessible.</p>
+          </div>
+        </article>
+
+        <article class="process-item reverse">
+          <div class="process-image">
+            <img src="images/Cat.png" alt="Tools and workflow screenshot">
+          </div>
+          <div class="process-text">
+            <h3>Custom Cat Movement System</h3>
+            <p>I created custom movement system for the Cat Enemies using a combination of Unity's NavMesh for pathfinding and rigidbody physics for smooth movement. This allowed the cats to navigate the kitchen environment intelligently while maintaining a playful and dynamic feel.</p>
+            <p>They also have a complex state-machine behind their behavior to keep track of all their different actions.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 GameDevRepo. All rights reserved.</p>
+      <div class="social">
+        <a href="https://github.com/S0ra-0-0" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/jasper-van-dongen-a59032388/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
