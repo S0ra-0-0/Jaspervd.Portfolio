@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Text content to be typed out
   const hiText = "Hi!";
-  const nameText = "My name is ....";
+  const nameText = "My name is Jasper van Dongen";
   const descText = "I make games and pixel art.";
   const linkText = 'Check out some of my <a href="projects.html" class="nav-link link"> projects</a> !';
 
