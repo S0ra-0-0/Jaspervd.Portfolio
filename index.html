@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameDevRepo🐈‍⬛ - Home</title>
+  <title>GameDevRepo - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="/images/pfp.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <button id="back-to-top" class="back-to-top">↑</button>
-  
+
   <header>
     <div class="container header-container">
       <h1 class="logo">GameDevRepo</h1>
@@ -24,33 +25,62 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="speech-bubble">
-        <div class="speech-content">
-          <h1 id="typewriter-hi"></h1> 
-          <h2 id="typewriter-name"></h2>
-          <p id="typewriter-desc"></p>
-          <p id="typewriter-link"></p>
+  <!-- Hero / About Me -->
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Jasper van Dongen</h1>
+        <h2 class="hero-role">Game Developer &amp; Pixel Artist</h2>
+        <p class="hero-text">
+          I build gameplay systems and tools in Unity, and dabble in pixel art on the side.
+          I enjoy tight controls, chaotic co-op design, and turning small ideas into finished, playable games.
+        </p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn">View My Work</a>
+          <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/S0ra-0-0" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/jasper-van-dongen-a59032388/" target="_blank">LinkedIn</a>
         </div>
       </div>
 
-      <div class="profile-picture">
-        <img src="/images/pfp.png" alt="Profile Picture">
+      <div class="hero-image">
+        <img src="/images/pfp.png" alt="Jasper van Dongen">
       </div>
+    </div>
+  </section>
+
+  <!-- Quick highlights -->
+  <section class="highlights">
+    <div class="container" style="padding-top: 0;">
+      <div class="highlights-grid">
+        <div class="skill">
+          <h3>Programming</h3>
+          <p>C#, JavaScript, HTML &amp; CSS.</p>
+        </div>
+        <div class="skill">
+          <h3>Design</h3>
+          <p>Unity and various graphic design tools.</p>
+        </div>
+        <div class="skill">
+          <h3>Collaboration</h3>
+          <p>Agile development and SCRUM teamwork.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
     <div class="container footer-container">
-      <p>&copy; 2025 GameDevRepo. All rights reserved.</p>
       <div class="social">
         <a href="https://github.com/S0ra-0-0" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/jasper-van-dongen-a59032388/" target="_blank">LinkedIn</a>
       </div>
     </div>
   </footer>
-  <script src="script.js"></script>
   <script src="features.js"></script>
 </body>
 </html>

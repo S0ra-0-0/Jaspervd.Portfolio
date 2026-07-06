@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cat-Catastropy</title>
+  <title>GameDevRepo - Bumpyrush</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="/images/pfp.png" type="image/png">
   <link rel="stylesheet" href="styles.css" />
@@ -28,37 +28,36 @@
 
   <!-- Breadcrumb -->
   <div class="breadcrumb">
-    <a href="index.html">Home</a> <span>/</span> <a href="projects.html">Projects</a> <span>/</span> <span>Golf</span>
+    <a href="index.html">Home</a> <span>/</span> <a href="projects.html">Projects</a> <span>/</span> <span>Bumpyrush</span>
   </div>
 
   <!-- About Section -->
-  <section id="Golf">
+  <section id="Bumpyrush">
     <div class="container">
-      <h2 class="section-title">Golf (WIP)</h2>
+      <h2 class="section-title">Bumpyrush</h2>
       <div class="about-content about-grid">
         <div class="about-image">
-          <img src="images/Screenshot 2025-11-05 112439.png" alt="Golf Screenshot" style="width:100%; height:auto; display:block; object-fit:cover;">
+                    <img src="images/Bumpyrush.png" alt="Bumpyrush Screenshot" style="width:100%; height:auto; display:block; object-fit:cover;">
         </div>
 
         <div class="about-text">
           <h3>Overview</h3>
-          <p><strong>Game Title:</strong> Golf</p>
-          <p><strong>Genre:</strong> Co-op · Party · Casual</p>
-          <p><strong>Team Size:</strong> 1 Developer</p>
-          <p><strong>Description</strong> A hectic 2-player multiplayer party game where players compete in a chaotic golf environment.</p>
+          <p><strong>Game Title:</strong> Bumpyrush</p>
+          <p><strong>Genre:</strong> Party · Multiplayer · Casual</p>
+          <p><strong>Team Size:</strong> 2-4 Players</p>
+          <p><strong>Description</strong> — A chaotic circus-themed party game. Players race to collect 10 bear pickups before their rivals do, all while dodging each other and grabbing power-ups to gain an edge.</p>
 
           <div class="features">
             <h4>Key features</h4>
             <ul class="features-list">
-              <li>Local co-op for 1-4 players</li>
-              <li>Multiple golf course layouts & increasing challenge</li>
-              <li>Fast-paced, chaotic gameplay</li>
+              <li>Free-for-all party gameplay for multiple players</li>
+              <li>First to collect 10 bears wins, keeping rounds fast and tense</li>
+              <li>Power-ups add chaos and comeback potential</li>
             </ul>
           </div>
 
           <div class="links">
-            <a class="btn" href="https://mmispot.itch.io/golf" target="_blank">Play on Itch</a> <!-- Change to correct itch link -->
-            <a class="btn btn-outline" href="https://github.com/S0ra-0-0/Cafe-CATastropy" target="_blank">View on GitHub</a> <!-- Change to correct github link -->
+            <span class="btn btn-outline placeholder-link">View on GitHub (coming soon)</span>
           </div>
         </div> <!-- .about-text -->
       </div> <!-- .about-content -->
@@ -72,25 +71,33 @@
       <div class="process-grid">
         <article class="process-item">
           <div class="process-image">
-            <img src="images/Screenshot 2025-12-09 145337.png" alt="Prototyping screenshot">
+            <img src="images/bear.png" alt="Prototyping screenshot">
           </div>
           <div class="process-text">
-            <h3>PlaceHolder</h3>
+            <h3>Gameloop</h3>
+            <p>For this project my focus was on creating the main game loop and network syncing it across devices. I also made a leaderboard to see other player's progress. </p>
+
+            <p>It was my first expierience working with network programming using mirror so I had a lot to learn!</p>
           </div>
         </article>
 
         <article class="process-item reverse">
           <div class="process-image">
-            <img src="images/Cat.png" alt="Tools and workflow screenshot">
+            <img src="images/hammer.png" alt="Tools and workflow screenshot">
           </div>
           <div class="process-text">
-            <h3>PlaceHolder</h3>
+            <h3>Power-ups</h3>
+            <p>My second focus were implementing the power-up system to add variety and strategic depth to the gameplay. I designed a total of 8 uninque power-ups of which 5 made it into the final game.</p>
+            <p><strong>Punch:</strong> Shoot a boxing glove at another player to knock them away!</p>
+            <p><strong>Oil spill:</strong> Spill oil behind you, if a player runs into it, they will slide and fly away!</p>
+            <p><strong>Size growth:</strong> Become larger and more intimidating, making it harder for others to knock you away!</p>
+            <p><strong>Gambling:</strong> Flip a coin to either gain 3 bears or lose 2!</p>
+            <p><strong>Vacuum:</strong> Use a vacuum to suck up bears and gain points!</p>
           </div>
         </article>
       </div>
     </div>
   </section>
-
   <!-- Footer -->
   <footer>
     <div class="container footer-container">
